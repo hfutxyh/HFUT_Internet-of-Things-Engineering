@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jan  5 16:38:43 2022
+# Process ID: 17672
+# Current directory: D:/vivado_code/project_8/project_8.runs/impl_1
+# Command line: vivado.exe -log openmips_min_sopc_tb.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source openmips_min_sopc_tb.tcl -notrace
+# Log file: D:/vivado_code/project_8/project_8.runs/impl_1/openmips_min_sopc_tb.vdi
+# Journal file: D:/vivado_code/project_8/project_8.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source openmips_min_sopc_tb.tcl -notrace
