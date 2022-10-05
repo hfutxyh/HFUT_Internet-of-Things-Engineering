@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1641371915">
+  <File Type="PA-TCL" Name="openmips_min_sopc_tb.tcl"/>
+  <File Type="REPORTS-TCL" Name="openmips_min_sopc_tb_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="openmips_min_sopc_tb.msk"/>
+  <File Type="RDI-RDI" Name="openmips_min_sopc_tb.vdi"/>
+  <File Type="BG-BIT" Name="openmips_min_sopc_tb.bit"/>
+  <File Type="BG-DRC" Name="openmips_min_sopc_tb.drc"/>
+  <File Type="BG-BGN" Name="openmips_min_sopc_tb.bgn"/>
+  <File Type="BG-BIN" Name="openmips_min_sopc_tb.bin"/>
+  <File Type="BITSTR-RBT" Name="openmips_min_sopc_tb.rbt"/>
+  <File Type="BITSTR-NKY" Name="openmips_min_sopc_tb.nky"/>
+  <File Type="BITSTR-BMM" Name="openmips_min_sopc_tb_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="openmips_min_sopc_tb.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="openmips_min_sopc_tb.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="openmips_min_sopc_tb.ltx"/>
+  <File Type="RCFI_FILE" Name="openmips_min_sopc_tb.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="openmips_min_sopc_tb_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="openmips_min_sopc_tb.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="openmips_min_sopc_tb_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="openmips_min_sopc_tb_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="openmips_min_sopc_tb_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="openmips_min_sopc_tb_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="openmips_min_sopc_tb_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="openmips_min_sopc_tb_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="openmips_min_sopc_tb_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="openmips_min_sopc_tb_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="openmips_min_sopc_tb_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="openmips_min_sopc_tb_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="openmips_min_sopc_tb_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="openmips_min_sopc_tb_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="openmips_min_sopc_tb.pdi"/>
+  <File Type="CFI_FILE" Name="openmips_min_sopc_tb.cfi"/>
+  <File Type="RNPI_FILE" Name="openmips_min_sopc_tb.rnpi"/>
+  <File Type="NPI_FILE" Name="openmips_min_sopc_tb.npi"/>
+  <File Type="RBD_FILE" Name="openmips_min_sopc_tb.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/defines.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/ex.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/ex_mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/hilo_reg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/id.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/id_ex.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/if_id.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/inst_rom.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/mem_wb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/openmips.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/openmips_min_sopc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/pc_reg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/regfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/86135/Desktop/cpu/Examples-in-book-write-your-own-cpu/Code/Chapter8/openmips_min_sopc_tb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="openmips_min_sopc_tb"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/yuesu.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
